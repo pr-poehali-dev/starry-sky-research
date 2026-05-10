@@ -4,35 +4,35 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Резиденция Светлая",
-    category: "Жилой дом",
-    location: "Москва, Россия",
+    title: "Фонтан «Нептун»",
+    category: "Гранит чёрный Габбро",
+    location: "Москва, парк «Сокольники»",
     year: "2024",
-    image: "/images/hously-1.png",
+    image: "https://cdn.poehali.dev/projects/edff658d-9a2f-4bd5-80b5-ac589228224c/files/c09abe70-12b4-40c2-915f-87e036d99abd.jpg",
   },
   {
     id: 2,
-    title: "Павильон Стекло",
-    category: "Коммерческий объект",
-    location: "Санкт-Петербург, Россия",
+    title: "Фасад бизнес-центра «Арктика»",
+    category: "Мрамор Bianco Carrara",
+    location: "Санкт-Петербург",
     year: "2023",
-    image: "/images/hously-2.png",
+    image: "https://cdn.poehali.dev/projects/edff658d-9a2f-4bd5-80b5-ac589228224c/files/bbcf5fa9-c018-4b62-aafd-3208624c91bc.jpg",
   },
   {
     id: 3,
-    title: "Дом у моря",
-    category: "Жилой дом",
-    location: "Сочи, Россия",
+    title: "Колоннада загородной усадьбы",
+    category: "Гранит Мансуровский",
+    location: "Подмосковье",
     year: "2023",
-    image: "/images/hously-3.png",
+    image: "https://cdn.poehali.dev/projects/edff658d-9a2f-4bd5-80b5-ac589228224c/files/356cfb9b-264f-4454-8473-30e1e376cc6e.jpg",
   },
   {
     id: 4,
-    title: "Северный приют",
-    category: "Гостиничный комплекс",
-    location: "Казань, Россия",
+    title: "Мемориальный комплекс",
+    category: "Гранит Балтийский",
+    location: "Казань",
     year: "2024",
-    image: "/images/hously-4.png",
+    image: "https://cdn.poehali.dev/projects/edff658d-9a2f-4bd5-80b5-ac589228224c/files/7d4f43cd-9e18-40f8-a861-6b275d552243.jpg",
   },
 ]
 
@@ -69,7 +69,7 @@ export function Projects() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
             <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши проекты</h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Реализованные объекты</h2>
           </div>
           <a
             href="#"
