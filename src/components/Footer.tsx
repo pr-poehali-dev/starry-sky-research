@@ -50,7 +50,14 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                620017, Свердловская область, г. Екатеринбург, ул. Фронтовых Бригад, д. 18, корп. 6, офис 1
+                <a
+                  href="https://yandex.ru/maps/?text=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%A4%D1%80%D0%BE%D0%BD%D1%82%D0%BE%D0%B2%D1%8B%D1%85%20%D0%91%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%2C%2018%D0%BA6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-foreground transition-colors"
+                >
+                  620017, Свердловская область, г. Екатеринбург, ул. Фронтовых Бригад, д. 18, корп. 6, офис 1
+                </a>
               </li>
             </ul>
           </div>
