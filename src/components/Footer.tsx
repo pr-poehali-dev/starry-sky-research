@@ -40,23 +40,13 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:info@granite-stone.ru" className="hover:text-foreground transition-colors">
-                  info@granite-stone.ru
+                <a href="mailto:arxgranit@yandex.ru" className="hover:text-foreground transition-colors">
+                  arxgranit@yandex.ru
                 </a>
               </li>
               <li>
-                <a href="tel:+78001234567" className="hover:text-foreground transition-colors">
-                  +7 (800) 123-45-67
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  Телеграм
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  ВКонтакте
+                <a href="tel:+73433055600" className="hover:text-foreground transition-colors">
+                  +7 (343) 305-56-00
                 </a>
               </li>
             </ul>
@@ -65,15 +55,8 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Архитектурный камень. Все права защищены.</p>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-foreground transition-colors">
-              Политика конфиденциальности
-            </a>
-            <a href="#" className="hover:text-foreground transition-colors">
-              Условия использования
-            </a>
-          </div>
+          <p>© 2026 Архитектурный камень. Все права защищены.</p>
+          <div className="flex gap-6"></div>
         </div>
       </div>
     </footer>
