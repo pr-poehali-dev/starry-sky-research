@@ -18,11 +18,6 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Предприятие</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="#projects" className="hover:text-foreground transition-colors">
-                  Проекты
-                </a>
-              </li>
-              <li>
                 <a href="#about" className="hover:text-foreground transition-colors">
                   О нас
                 </a>

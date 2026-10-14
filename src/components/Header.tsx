@@ -40,7 +40,6 @@ export function Header() {
           {[
             { label: "Главная", href: "#hero" },
             { label: "Философия", href: "#about" },
-            { label: "Проекты", href: "#projects" },
             { label: "Услуги", href: "#services" },
             { label: "Вопросы", href: "#faq" },
           ].map((item) => (
@@ -97,7 +96,6 @@ export function Header() {
             {[
               { label: "Главная", href: "#hero" },
               { label: "Философия", href: "#about" },
-              { label: "Проекты", href: "#projects" },
               { label: "Услуги", href: "#services" },
               { label: "Вопросы", href: "#faq" },
             ].map((item) => (
